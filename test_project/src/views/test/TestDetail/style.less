@@ -1,0 +1,78 @@
+.box{
+  width: 100%;
+  height: 100%;
+  .title{
+    height: 44px;
+    line-height: 44px;
+    padding-left: 6px;
+  }
+  .content{
+    width: 100%;
+    height: 100%;
+    background: #f0f2f5;;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    .left{
+      width: 50%;
+      margin-right: 10px;
+      background: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      .user_name{
+        height: 40px;
+        line-height: 40px;
+      }
+      .detail_cont{
+        margin: 15px 0;
+        h3{
+          height: 44px;
+          line-height: 44px;
+        }
+        .all_btn{
+          margin: 10px 0;
+          &>button{
+            outline: none;
+            border: 0;
+            margin-right: 8px;
+            font-size: 12px;
+          }
+          .questions_type{
+            color: #1890ff;
+            background: #e6f7ff;
+            border: 1px solid #91d5ff;
+          }
+          .subject_text{
+            color: #2f54eb;
+            background: #f0f5ff;
+            border-color: #adc6ff;
+          }
+          .exam_name{
+            color: #fa8c16;
+            background: #fff7e6;
+            border-color: #ffd591;
+          }
+        }
+        .stem{
+          margin: 10px 0;
+          label{
+            height: 35px;
+            line-height: 35px;
+          }
+          .questions_stem{
+            line-height: 32px;
+          }
+        }
+      }
+    }
+    .right{
+      width: 50%;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      .questions_answer{
+        line-height: 32px;
+      }
+    }
+  }
+}
